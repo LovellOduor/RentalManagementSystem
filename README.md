@@ -30,4 +30,27 @@ Other widgets shared across pages and users are simply located in the root of th
 
 ### Sign In Page
 ![Sign In Page](/gitfiles/images/Sign%20In%20Page.png)
+location: **lib/widgets/firebase_sigin_widget.dart**
+**Signin is managed by firebase. The dashboard access will be provided**
+
+## Registration Page
+![Registration Page](/gitfiles/images/Registration%20Page.png)
+location: **lib/widgets/firebase_sigin_widget.dart**
+- The registration page is also generated and managed by the firebase UI. 
+
+## Email Confirmation Page
+![Email Confirmation Page](/gitfiles/images/Email%20Verification%20Page.png)
+- Once the user clicks the confirmation link in their email, then click on the
+confirm email verificationn button, they are redirected to the Acccount type selection page.
+
+## Account Type Selection Page
+![Account Type Selection Page](/gitfiles/images/Account%20Type%20Selection%20Page.png)
+- This shows only upon first time registration and also before the user completes registration as  particular user type. It says log in as but should probably be renamed to register as.
+
+## Landlord Dashboard Page
+![Landlord Dashboard Page](/gitfiles/images/Landlord%20Dashboard.png)
+- This page is divided into 3 components which ideally are currently responsive.
+The Side Menu, Dashboard and Detail View on the far right wihc just displays details of the current signed in user. This page is simmilar for all other user types. 
+- It's primary purpose is to dispaly a summary of stats relevant to the current user such as payment trends.
+
 
